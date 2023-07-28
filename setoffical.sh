@@ -13,7 +13,7 @@ function set_offical() {
     proj_name="Toolbox_GUI"
     proj_dir="$current_dir/$proj_name/"
 
-    wait_del_filename=('config.ini' 'config/env_myself.py' 'onefox' 'install.sh' 'setoffical.sh')
+    wait_del_filename=('config.ini' 'config/env_myself.py' 'onefox' 'install.sh' 'setoffical.sh' '.idea')
     wait_mv_filename=('README-EN.md'  'README.md' 'requirements.txt')
     
     for f in "${wait_del_filename[@]}"; do
