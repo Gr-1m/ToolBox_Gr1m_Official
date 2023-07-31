@@ -38,7 +38,15 @@ config.ini 中的工具配置为：
 `toolname = [command];;[path];;[option]`
 
 
-### 参考来自:
+### 参考来自 & 鸣谢：
 
 [one-fox](https://mp.weixin.qq.com/s/NiW-5LpvTqVlkL8tuUV6HQ)工具箱 by 狐狸师傅
+
+
+
+感谢 [JetBrains](https://www.jetbrains.com/) 提供的一系列好用的 IDE 和对本项目的支持。
+
+![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)
+
+
 
