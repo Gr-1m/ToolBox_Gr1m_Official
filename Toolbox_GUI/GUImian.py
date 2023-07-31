@@ -23,7 +23,7 @@ class MyApp:
         self.initMyUI()
 
     def initMyUI(self):
-        app_init()
+        # app_init()
         printl("[+] ---- 初始化成功 ---- ")
         self.tray.tray_click.connect(self.show_window)
 

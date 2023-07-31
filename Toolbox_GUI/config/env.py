@@ -111,10 +111,12 @@ def read_gui(cff: ConfigParser):
 try:
     cff = ConfigParser()
 
-    if not os.path.exists(f'{ToolsPath}/config.ini'):
+    if os.path.exists(f'{ToolsPath}/config.ini'):
+        printl(f'[+] read config.ini')
         cff.read(f"{ToolsPath}/config.ini")
 
     elif os.path.exists(f'{ToolsPath}/config/default.ini'):
+        printl(f'[+] read config/default.ini')
         cff.read(f"{ToolsPath}/config/default.ini")
 
     elif platform.system() == 'Linux':
