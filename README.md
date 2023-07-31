@@ -38,7 +38,7 @@ config.ini 中的工具配置为：
 `toolname = [command];;[path];;[option]`
 
 
-### 参考来自 & 鸣谢：
+## 参考来自 & 鸣谢：
 
 [one-fox](https://mp.weixin.qq.com/s/NiW-5LpvTqVlkL8tuUV6HQ)工具箱 by 狐狸师傅
 
