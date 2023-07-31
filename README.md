@@ -30,7 +30,7 @@ python3 GUImain.py
 
 ## 使用前必读！！！
 
-首次运行请执行安装：`sudo chmod +x ./install.sh && sudo ./install.sh`
+首次运行请执行安装：`sudo chmod +x ./install.sh && sudo ./install.sh`（暂时未完善安装脚本，请自行安装相关工具）
 
 > 初始化config.ini， 当该文件读取不到，不存在时程序读取默认配置config/default.ini。
 
